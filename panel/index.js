@@ -37,7 +37,7 @@ Editor.Panel.extend({
       methods: {
         /**帮助按钮回调 */
         onBtnClickHelpDoc() {
-          let url = "https://github.com/robotPin/cocosCreatorPlugin-WechatMiniAppidList";
+          let url = "https://github.com/robotPin/wechat-appid-list";
           Electron.shell.openExternal(url);
         },
         onBtnClickTellMe() {
